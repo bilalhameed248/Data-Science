@@ -1,9 +1,0 @@
-from django.contrib import admin
-from django.urls import path
-from .import views
-
-urlpatterns = [
-    path('', views.index, name='index'),
-    path('analyse/', views.analyse, name='analyse'),
-    path('analysePost/', views.analysePost, name='analysePost'),
-    ]
